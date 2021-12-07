@@ -1,7 +1,11 @@
 Testing the issue:
 
-use the /ping/test endpoint
+yarn install
+
+yarn start:dev
+
+use the localhost:3005/ping/test endpoint
 
 provide a host and database to databaseService.connect method.
 
-The relevant code lies in database.service and database-connection.ts
+The relevant code lies in common/database/database.servicets and common/database/database-connection.ts
